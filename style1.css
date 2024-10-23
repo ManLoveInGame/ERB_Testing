@@ -1,0 +1,107 @@
+html, body{
+    font-family: "Noto Sans TC";
+    /* border: 3px solid red; later you will delete after you finished designing */
+    background-color: #d9e2e8;
+}
+
+.container{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+    /* border: 3px solid red; later you will delete after you finished designing */
+}
+
+.card{
+    background-color: #fff;
+    padding : 20px 20px 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:first-child{
+    background-image: url('https://www.effectiveecommerce.com/wp-content/uploads/2020/02/nike-shoe-png-nike-shoes-transparent-png-1464-978x1024.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 200px;
+}
+
+.card:nth-child(2){
+    background-image: url('https://r2.erweima.ai/imgcompressed/compressed_4024854202d2671f207e86057d4c16f6.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+
+.card:last-child{
+    background-image: url('https://pngfile.net/public/uploads/preview/nike-sneaker-shoe-png-11701941830qrjwwbjbwm.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+
+
+.sporty{
+    color: #dd4654;
+}
+
+.casual{
+    color:#0b4aa1;
+}
+
+.formal{
+    color:#4d2a1c;
+}
+
+.card h2{
+    /* Font related properties */
+    font-size: 30px;
+    font-weight: 900;
+    /* font-style : italic; */
+    /* font-variant: small-caps; */
+
+    /* text related properties */
+    text-transform: capitalize;
+    /* text-indent: 20px; */
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    /* text-align: center; */
+}
+
+.card a{
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 10px 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 7px;
+    
+}
+
+.card a:hover{
+    opacity: 0.8;
+}
+
+a.sporty{
+    color: white;
+    background-color: #dd4654;
+    
+}
+
+a.formal{
+    color: white;
+    background-color: #0b4aa1;
+}
+
+a.casual{
+    color: white;
+    background-color: #4d2a1c;
+}
+
+.card p{
+    /* text-transform: capitalize; */
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

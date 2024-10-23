@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color : orangered;
+}
+
+/* header */
+
+.header{
+    background-color: orangered;
+    padding: 30px;
+    text-transform: capitalize;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 20px;
+    background-color: hsl(0,0%,93%);
+}
+
+.nav-list a{
+    font-size: 20px;
+    /* margin: 20px; also can use gap */
+    text-transform: capitalize;
+    color: hsl(0,0%,47%);
+}
+
+.nav-list a:hover{
+    color : orangered;
+}
+
+main{
+    display : flex;
+    /* gap : 40px;
+    padding: 40px; */
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* border: 1px solid red; */    
+}
+
+main .main-content{
+    flex: 1;
+}
+
+main aside{
+    width: 250px;
+}
+
+section h2{
+    margin: 15px 0;
+}
+
+aside h3{
+    padding : 8px;
+    background-color: hsl(30,99%,51%);
+    color: white;
+}
+
+aside li{
+    padding : 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.container{
+    width: 900px;
+    margin: auto;
+}

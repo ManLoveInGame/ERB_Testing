@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 10px;
+}
+
+.fa-facebook{
+    color: red;
+    font-size: 50px;
+}
+
+.fa-facebook:hover{
+    color: green;
+}
+
+.fa-check {
+    color: green;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.fa-xmark{
+    font-weight: bold;
+    font-size: 50px;
+}

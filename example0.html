@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Note this is abandon code, cause no one use ie anymore -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="HTML example" />
+    <meta name="keywords" content="HTML, CSS, Javascript" />
+    <meta name="author" content="Jacob Wong" />
+    <meta name="robots" content="noindex,nofollow" />
+
+    <link rel="stylesheet" href="style.css" />
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- headings -->
+
+    <header>
+
+        <h1>Html Examples</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+    </header>
+
+    <!-- paragraph -->
+    <article>
+        <p id="service">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium natus voluptatum laudantium. Laboriosam
+            nisi autem rerum ad dicta dolore itaque illo. Corrupti quasi suscipit nisi aliquam aut veniam, recusandae
+            minima?
+        </p>
+
+        <!-- text emphasis tags -->
+        <p>This is <strong>Important !</strong></p>
+        <p>This is <em>emphaiszed</em> text</p>
+        <p>This is <del>deleted</del> text</p>
+        <p>This is <mark>marked</mark> text</p>
+        <p>This is <ins>inserted</ins> text</p>
+        <p>This is <sub>subscript</sub> text</p>
+        <p>This is <sup>superscript</sup> text</p>
+
+    </article>
+
+    <!-- unorder list -->
+
+    <section>
+        <ul>
+            <li>Item one</li>
+            <li>Item two</li>
+            <li>Item three</li>
+            <li>Item four</li>
+        </ul>
+    </section>
+
+    <!-- order list -->
+
+    <section>
+
+        <ol>
+            <li>Item one</li>
+            <li>Item two</li>
+            <li>Item four</li>
+            <li>Item three</li>
+        </ol>
+
+    </section>
+
+    <!-- nested list -->
+
+    <section>
+
+        <ul>
+            <li>Item one</li>
+            <li>Item two</li>
+            <ul>
+                <li>Item Three</li>
+                <li>Item Four</li>
+                <ul>
+                    <li>Item Five</li>
+                    <li>Item Six</li>
+                </ul>
+            </ul>
+        </ul>
+
+    </section>
+
+    <!-- links -->
+    <section>
+        <h2>external link</h2>
+        <a href="https://www.google.com/" style="background-color: aqua;">Google</a>
+        <h2>link with target</h2>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+        <h2>relative link</h2>
+        <a href="about.html">About</a>
+        <h2>internal link</h2>
+        <a href="#service">go to service section</a>
+
+        <h2>email links</h2>
+
+        <a href="mailto:wong.namfung123@gmail.com">send an email</a>
+
+        <a href="1.png">Download Document</a>
+
+        <h2>title attribute</h2>
+        <a href="about.html" title="go to about">About Page</a>
+    </section>
+
+    <!-- Image -->
+    <img src="https://picsum.photos/200/300" alt="image" width="100px" height="100px" title="nice picture" />
+
+    <figure>
+        <img src="https://picsum.photos/200/300" alt="image" width="100px" height="100px" />
+        <figcaption>Fig 1. - My Trip to HK</figcaption>
+    </figure>
+
+    <!-- <form action="/api/process" method="POST">
+        <input type="text" name="company" id="company" />
+    </form> -->
+
+    <!-- forms -->
+
+    <form action="#">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required placeholder="PLease input name" />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" minlength="3" maxlength="5" required />
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" value="john@example.com" />
+        </div>
+        <div>
+            <label for="textarea">textarea</label>
+            <textarea type="textarea" name="textarea" id="textarea" width="100px" height="100px"></textarea>
+        </div>
+        <button type="submit">submit</button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Form selection -->
+    <form>
+        <label for="product">Product</label>
+        <select name="product" id="product" multiple size="2">
+            <option value="iphone">iphone</option>
+            <option value="samsung" selected>samsung</option>
+            <option value="nokia">nokia</option>
+
+        </select>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Form checkbox and radio -->
+    <form>
+        <label for="html">
+            <input type="checkbox" name="web" id="html" value="html" />HTML
+        </label>
+        <label for="css">
+            <input type="checkbox" name="web" id="css" value="css" checked />CSS
+        </label>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form>
+        <label for="small">
+            <input type="radio" name="size" id="small" value="small">small
+        </label>
+        <label for="medium">
+            <input type="radio" name="size" id="medium" value="medium" checked>medium
+        </label>
+        <label for="large">
+            <input type="radio" name="size" id="large" value="large">large
+        </label>
+
+        <label for="Message">Message</label>
+        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="enter your message to cs"></textarea>
+        <input type="submit" />
+        <a href="#" type="submit">submit</a>
+    </form>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- other input -->
+    <form>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color" />
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" />
+        </div>
+        <div>
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time" />
+        </div>
+
+        <div>
+            <label for="week">Week</label>
+            <input type="week" name="week" id="week" />
+        </div>
+
+        <div>
+            <label for="month">Month</label>
+            <input type="month" name="month" id="month" />
+        </div>
+
+        <div>
+            <label for="range">Range</label>
+            <input type="range" name="range" id="range" min="0" max="100" step="10" value="50"/>
+        </div>
+
+        <div>
+            <label for="url">url</label>
+            <input type="url" name="url" id="url" />
+        </div>
+
+        <!-- list select -->
+
+        <label for="lang">Programming Language</label>
+        <input list="languages" id="lang" name="lang" />
+        <datalist id="languages">
+            <option value="Python"></option>
+            <option value="Java"></option>
+            <option value="C++"></option>
+            <option value="JavaScript"></option>
+        </datalist>
+
+        <!-- Range with datalist -->
+
+        <div>
+            <label for="range1">Range</label>
+            <input type="range" list="range2" name="range" id="range1" min="0" max="100"/>
+        </div>
+
+        <datalist id="range2">
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+        </datalist>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

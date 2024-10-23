@@ -1,0 +1,40 @@
+/* select by element tab */
+
+/* h1{
+    color: red;
+} */
+
+h2{
+    color: blue;
+}
+
+header{
+    color: green;
+}
+
+header > h1{
+    color: yellow;
+}
+
+/* select by ID */
+
+article p#service{
+    background-color: aqua;
+}
+
+.container .card .card2{
+    color: lime;
+}
+
+.container .card h1{
+    color: yellow;
+}
+
+.card{
+    color :purple; 
+}
+
+.card h1{
+    color: orange;
+}
+
